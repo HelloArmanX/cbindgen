@@ -7,7 +7,7 @@ use std::fmt;
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Path {
-    name: String,
+    pub name: String,
 }
 
 impl Path {

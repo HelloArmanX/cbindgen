@@ -34,7 +34,7 @@ pub enum AnnotationValue {
 /// A set of annotations specified by a document comment.
 #[derive(Debug, Default, Clone)]
 pub struct AnnotationSet {
-    annotations: HashMap<String, AnnotationValue>,
+    pub annotations: HashMap<String, AnnotationValue>,
     pub must_use: bool,
     pub deprecated: Option<String>,
 }
