@@ -88,7 +88,7 @@ pub enum ItemValue<T: Item> {
 
 #[derive(Debug, Clone)]
 pub struct ItemMap<T: Item> {
-    data: IndexMap<Path, ItemValue<T>>,
+    pub data: IndexMap<Path, ItemValue<T>>,
 }
 
 impl<T: Item> Default for ItemMap<T> {
