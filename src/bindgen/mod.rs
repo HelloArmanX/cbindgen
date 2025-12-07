@@ -42,7 +42,7 @@ mod builder;
 mod cargo;
 mod cdecl;
 mod config;
-mod declarationtyperesolver;
+pub mod declarationtyperesolver;
 mod dependencies;
 mod error;
 #[cfg(feature = "unstable_ir")]
